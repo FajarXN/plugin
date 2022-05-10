@@ -4,8 +4,8 @@ async function handler(m) {
                     + 'VERSION:3.0\n' 
                     + 'N:;Fajar Ganz;;;'
                     + 'FN: Fajar Nurdiana\n' // full name
-                    + 'ORG:⏤͟͟͞͞TEH ⏤͟͟͞͞GELAS🍃;\n' // the organization of the contact
-                    + 'TEL;type=CELL;type=VOICE;waid=6285223272352:+62 852-2327-2352\n' // WhatsApp ID + phone number
+                    + 'ORG:⏤͟͟͞͞TEH ⏤͟͟͞͞GELAS;\n' // the organization of the contact
+                    + 'TEL;type=CELL;type=VOICE;waid=6285223272352 : +62 852-2327-2352\n' // WhatsApp ID + phone number
                     + 'nitem5.X-ABLabel:───────[  ]───────'
                     + 'END:VCARD'
                 conn.sendMessage(m.chat, { contacts: { displayName: 'Fajr gmntng', contacts: [{ vcard }] } }, { quoted: m })
